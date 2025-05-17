@@ -1,3 +1,5 @@
+;Write an X86/64 ALP to count number of positive and negative numbers from the array.
+
 section .data
     welmsg db 10,'Welcome to count +ve and -ve numbers in an array',10
     welmsg_len equ $-welmsg
