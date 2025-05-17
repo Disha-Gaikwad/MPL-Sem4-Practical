@@ -1,3 +1,5 @@
+;Write an X86/64 ALP to find the largest of given Byte/Word/Dword/64-bit numbers.
+
 section .data
 arr_msg db 'Enter 5 array elements (space separated, hex values): ', 10
 arr_len equ $ - arr_msg  ; Calculate length of arr_msg
