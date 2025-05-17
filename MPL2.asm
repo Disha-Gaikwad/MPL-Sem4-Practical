@@ -1,3 +1,5 @@
+;Write an X86/64 ALP to accept a string and to display its length.
+
 section .data
 msg1 db 10,13,"Enter a string: ", 0  ; Prompt message
 len1 equ $-msg1                    ; Calculate length of msg1
